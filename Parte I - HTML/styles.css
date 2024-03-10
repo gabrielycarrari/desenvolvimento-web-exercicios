@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+p, .table {
+    margin: 10px;
+    margin-top: 20px;
+}

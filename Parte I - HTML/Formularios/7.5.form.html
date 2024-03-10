@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Formulário 7.5</title>
+</head>
+<body>
+    <p><a href="../exercicios.html#form">Voltar aos Exercícios</a></p>
+    <hr><br>
+    <h1>Formulário - 7.5</h1>
+    <hr>
+    <form action="mailto:form@email.com" enctype="multipart/form-data">
+        <div>
+            <label for="email">E-mail</label>
+            <br>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <br>
+        <fieldset>
+            <legend>Assunto</legend>
+            <input type="radio" name="assunto" id="duvida" value="d" required >
+            <label for="duvida">Duvida</label><br>
+            <input type="radio" name="assunto" id="sugestao" value="s">
+            <label for="sugestao">Sugestão</label><br>
+            <input type="radio" name="assunto" id="reclamacao" value="r">
+            <label for="reclamacao">Reclamação</label>
+        </fieldset>
+        <br>
+        <div>
+            <label for="mensagem">Mensagem</label><br>
+            <textarea name="mensagem" id="mensagem" cols="60" rows="4" required></textarea>
+        </div>
+        <br>
+        <button type="submit">Salvar</button>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Capítulo 11 - Exercícios CSS</title>
+    <link rel="stylesheet" href="capitulo11.css">
+</head>
+<body>
+    <h1>Exercícios Capítulo 11 - Pseudo-seletores</h1>
+    <hr><br>
+    
+    <h1>Utilize o pseudoseletor ::before para adicionar um asterisco (*) antes dos títulos de nível 1. (11.1)</h1>
+    <pre>
+        <code>
+    h1::before {
+        content: "* ";
+    }
+        </code>
+    </pre>
+    
+    <p>Aplique o pseudoseletor ::after para adicionar uma linha horizontal após todos os parágrafos. (11.2)</p>
+
+    <pre>
+        <code>
+    p::after {
+        content: "";
+        display: block;
+        border-bottom: 1px solid #000;
+        margin-top: 8px;
+    }
+        </code>
+    </pre>
+    
+    <p>Utilize o pseudoseletor ::first-letter para aumentar a fonte da primeira letra dos parágrafos. (11.3)</p>
+    <pre>
+        <code>
+    p::first-letter {
+        font-size: 2em;
+        font-weight: bold;
+    }
+        </code>
+    </pre>
+    
+    <p>Aplique o pseudoseletor ::first-line para alterar a cor da primeira linha de todos os parágrafos. (11.4)</p>
+    <pre>
+        <code>
+    p::first-line {
+        color: #ff3399;
+    }
+        </code>
+    </pre>
+
+    <p>Exemplo 1ª Linha cor diferente - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus perspiciatis assumenda explicabo fugiat quidem ducimus, maiores ratione commodi magni dolores? Molestias, sint. Similique, praesentium? Neque labore facere dolorum officiis odit vel vitae consequatur, consequuntur voluptate omnis ipsum asperiores minus voluptatum, perferendis totam ad necessitatibus. Reiciendis ex sequi quibusdam recusandae impedit modi commodi, quasi incidunt officiis unde dolorum possimus tempore minus.</p>
+
+    <ul>
+        <li>Item de lista 1</li>
+        <li>Item de lista 2</li>
+        <li>Item de lista 3</li>
+    </ul>
+    <pre>
+        <code>
+    li::marker {
+        color: green;
+    }
+        </code>
+    </pre>
+    
+</body>
+</html>

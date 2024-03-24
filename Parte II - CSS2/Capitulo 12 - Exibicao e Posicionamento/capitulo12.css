@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    display: inline;
+}
+
+span {
+    display: block;
+}
+
+img {
+    display: inline-block;
+}
+
+.ocultar {
+    display: none;
+}
+
+.invisivel {
+    visibility: hidden;
+}

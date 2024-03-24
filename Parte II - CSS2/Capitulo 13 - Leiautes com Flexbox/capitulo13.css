@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: sans-serif;
+}
+
+.flexbox-container {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px; 
+    border: 1px solid #000;
+}
+
+.tres-itens .item {
+    flex-grow: 1;
+}
+
+.cinco-itens .item {
+    flex-grow: 1;
+}
+
+.cinco-itens .destaque {
+    flex-grow: 2;
+}
+
+.alinhamento-direita {
+    justify-content: flex-end;
+}
+
+.alinhamento-central {
+    height: 200px; 
+    align-items: center;
+}
+
+.item {
+    padding: 20px;
+    margin: 5px;
+    background-color: lightgray; 
+    border: 1px solid #333;
+}

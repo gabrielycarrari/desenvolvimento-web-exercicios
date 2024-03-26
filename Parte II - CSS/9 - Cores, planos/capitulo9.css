@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+p {
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+
+p a {
+    color: blue;
+}
+
+
+.bg-rgb-green {
+    background-color: rgb(50, 205, 50);
+}
+
+
+ul.text-rgba-gray {
+    color: rgba(128, 128, 128, 0.5);
+}
+
+
+.bg-hsl-pink {
+    background-color: hsl(330, 75%, 70%);
+}

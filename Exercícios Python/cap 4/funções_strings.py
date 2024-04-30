@@ -7,5 +7,5 @@
 # endswith
 # strip
 # find: retorna a posição
-# count 
-# len 
+# count: quantidade de vezes que uma palavra repete
+# len: quantidaede de caracteres, ou a quantidade de itens em uma lista

@@ -1,3 +1,6 @@
+from IdadeInvalidaError import IdadeInvalidaError
+
+
 class Pessoa:
     contador = 0
     def __init__(self, nome, idade):
@@ -14,7 +17,7 @@ class Pessoa:
         if 0 <= valor <= 120:
             self.__idade = valor
         else:
-            raise Exception(f"Idade {valor} é inválida. Deve estar entre 0 e 120.")
+            raise IdadeInvalidaError(valor)
     
     def falar(self, mensagem):
         print(f"{self.nome} falou '{mensagem}'.")

@@ -6,5 +6,5 @@ class Administrativo(Funcionario):
         super().__init__(nome, idade)
         self.setor = setor
 
-    def calcular_salario() -> float:
+    def calcular_salario(self) -> float:
         return 4000

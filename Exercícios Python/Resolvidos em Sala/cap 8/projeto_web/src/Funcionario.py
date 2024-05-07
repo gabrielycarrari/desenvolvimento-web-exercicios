@@ -5,5 +5,5 @@ from Pessoa import Pessoa
 class Funcionario(Pessoa):
 
     @abstractmethod
-    def calcular_salario() -> float:
+    def calcular_salario(self) -> float:
         pass

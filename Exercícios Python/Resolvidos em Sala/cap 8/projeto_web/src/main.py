@@ -2,6 +2,7 @@ from typing import List
 from Administrativo import Administrativo
 from Funcionario import Funcionario
 from Professor import Professor
+from Pessoa import Pessoa
 
 funcionarios: List[Funcionario] = []
 funcionarios.append(Professor("Fulano", 100, "123456"))
@@ -14,3 +15,5 @@ funcionarios.append(Professor("Hepnato", 23, "788987"))
 
 for f in funcionarios:
     print(f"{f.nome} recebe {f.calcular_salario()} por mês.")
+
+Pessoa.mostrar_qtde_objetos()

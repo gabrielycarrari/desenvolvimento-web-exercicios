@@ -1,7 +1,9 @@
 class Pessoa:
+    contador = 0
     def __init__(self, nome, idade):
         self.nome = nome.upper()
         self.idade = idade
+        Pessoa.contador += 1
 
     @property
     def idade(self) -> int:
@@ -16,5 +18,9 @@ class Pessoa:
     
     def falar(self, mensagem):
         print(f"{self.nome} falou '{mensagem}'.")
+
+    @classmethod
+    def mostrar_qtde_objetos(cls):
+        print(f"Foram instanciados {cls.contador} objetos da classe Pessoa")
     
         

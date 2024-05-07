@@ -6,6 +6,6 @@ class Professor(Funcionario):
         super().__init__(nome, idade)
         self.siape = siape
 
-    def calcular_salario() -> float:
+    def calcular_salario(self) -> float:
         return 5000
         

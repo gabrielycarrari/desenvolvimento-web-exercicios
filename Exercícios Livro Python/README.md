@@ -1,6 +1,6 @@
 # Exercícios de Python 
 
-Este diretório contém uma série de exercícios propostos no livro [Python Essencial ](https://www.amazon.com.br/Python-Essencial-S%C3%A9rie-Programa%C3%A7%C3%A3o-ebook/dp/B0C38QMW8H) realizados para as aulas de desenvolvimento web ministradas pelo professor [Ricardo Maróquio](https://www.youtube.com/c/ricardomaroquio), durante o sétimo período do curso de Sistemas de Informação.
+Este diretório contém uma série de exercícios propostos no livro [Python Essencial](https://www.amazon.com.br/Python-Essencial-S%C3%A9rie-Programa%C3%A7%C3%A3o-ebook/dp/B0C38QMW8H) realizados para as aulas de desenvolvimento web ministradas pelo professor [Ricardo Maróquio](https://www.youtube.com/c/ricardomaroquio), durante o sétimo período do curso de Sistemas de Informação.
 
 
 ## 📞 Contato

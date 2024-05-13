@@ -1,6 +1,6 @@
 # Repositório de Exercícios de Desenvolvimento Web
 
-Este repositório contém uma coleção de exemplos resolvidos em sala e exercícios realizados para as aulas de desenvolvimento web ministradas pelo professor [Ricardo Maróquio](https://www.youtube.com/c/ricardomaroquio), durante o sétimo período do curso de Sistemas de Informação.
+Este repositório contém uma coleção de exercícios realizados para as aulas de desenvolvimento web ministradas pelo professor [Ricardo Maróquio](https://www.youtube.com/c/ricardomaroquio), durante o sétimo período do curso de Sistemas de Informação.
 
 
 ## 📞 Contato
